@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C143451CBBB769006F5BDD /* PromotoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C143441CBBB769006F5BDD /* PromotoresVC.swift */; };
+		49C143471CBBC189006F5BDD /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C143461CBBC189006F5BDD /* InfoVC.swift */; };
 		49D7377F1CB7AA6600B7DD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D7377E1CB7AA6600B7DD07 /* AppDelegate.swift */; };
 		49D737811CB7AA6600B7DD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D737801CB7AA6600B7DD07 /* ViewController.swift */; };
 		49D737841CB7AA6600B7DD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D737821CB7AA6600B7DD07 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49C143441CBBB769006F5BDD /* PromotoresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotoresVC.swift; sourceTree = "<group>"; };
+		49C143461CBBC189006F5BDD /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 		49D7377B1CB7AA6500B7DD07 /* AnticipateRD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnticipateRD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D7377E1CB7AA6600B7DD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49D737801CB7AA6600B7DD07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 		49D737AC1CB7AAEA00B7DD07 /* Support files */ = {
 			isa = PBXGroup;
 			children = (
+				49C143461CBBC189006F5BDD /* InfoVC.swift */,
+				49C143441CBBB769006F5BDD /* PromotoresVC.swift */,
 				49D737BD1CBA75C400B7DD07 /* TestVC.swift */,
 				49D737BB1CB7DF3200B7DD07 /* AsesoramientoVC.swift */,
 				49D737B91CB7CA2700B7DD07 /* VideosVC.swift */,
@@ -289,6 +295,8 @@
 				49D737B01CB7ABEA00B7DD07 /* MenuVC.swift in Sources */,
 				49D737AE1CB7AB5100B7DD07 /* DeporteVC.swift in Sources */,
 				49D737BC1CB7DF3200B7DD07 /* AsesoramientoVC.swift in Sources */,
+				49C143471CBBC189006F5BDD /* InfoVC.swift in Sources */,
+				49C143451CBBB769006F5BDD /* PromotoresVC.swift in Sources */,
 				49D737B61CB7C2F500B7DD07 /* SeguridadVC.swift in Sources */,
 				49D7377F1CB7AA6600B7DD07 /* AppDelegate.swift in Sources */,
 				49D737B81CB7C9BE00B7DD07 /* ControlRiesgoVC.swift in Sources */,
@@ -520,6 +528,7 @@
 				49D737A51CB7AA6600B7DD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49D737A61CB7AA6600B7DD07 /* Build configuration list for PBXNativeTarget "AnticipateRDTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				49D737A81CB7AA6600B7DD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49D737A91CB7AA6600B7DD07 /* Build configuration list for PBXNativeTarget "AnticipateRDUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				49D737AB1CB7AA6600B7DD07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

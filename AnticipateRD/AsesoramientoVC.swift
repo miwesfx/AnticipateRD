@@ -35,6 +35,10 @@ class AsesoramientoVC: UIViewController, MFMailComposeViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(animated: Bool) {
+        consulta.text = "[Escriba su consulta aquí]\nDesde aquí puede realizar consultas a expertos criminólogos sobre dudas que les surja, en cuanto a:\nMedidas de seguridad personal\nMedidas de control del riesgo\nÓrdenes de protección\nAyudas a víctimas de violencia de genero\n¿Que hacer?\nAtención especializada"
+    }
+    
     @IBAction func enviar(sender: AnyObject) {
         var TextoRemitente = "Remitente: "
         TextoRemitente += remitente.text!
