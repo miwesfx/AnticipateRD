@@ -721,6 +721,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="C5X-bc-eKB" firstAttribute="leading" secondItem="04f-Aq-5SQ" secondAttribute="leading" id="0o5-ub-yHf"/>
+                            <constraint firstItem="cla-4u-FRe" firstAttribute="top" secondItem="dHo-hU-tzS" secondAttribute="bottom" constant="8" id="0tc-ld-4DJ"/>
                             <constraint firstItem="Dyz-8K-Zmb" firstAttribute="trailing" secondItem="04f-Aq-5SQ" secondAttribute="trailingMargin" id="1DL-7e-ajo"/>
                             <constraint firstAttribute="trailing" secondItem="C5X-bc-eKB" secondAttribute="trailing" id="2Nz-Bu-YhR"/>
                             <constraint firstItem="Dyz-8K-Zmb" firstAttribute="top" secondItem="cir-0m-fY5" secondAttribute="bottom" constant="8" id="5HC-mX-FJf"/>
@@ -738,12 +739,19 @@
                             <constraint firstItem="dHo-hU-tzS" firstAttribute="top" secondItem="WPt-bJ-YcF" secondAttribute="bottom" constant="8" id="Wq5-6V-dYg"/>
                             <constraint firstItem="uMR-i9-j5g" firstAttribute="top" secondItem="cla-4u-FRe" secondAttribute="bottom" id="dRm-dR-mGx"/>
                             <constraint firstItem="hsP-c4-4Yg" firstAttribute="top" secondItem="dHo-hU-tzS" secondAttribute="bottom" constant="24" id="dUM-Fp-3xr"/>
+                            <constraint firstItem="cla-4u-FRe" firstAttribute="top" secondItem="WPt-bJ-YcF" secondAttribute="bottom" constant="8" id="nw9-Vi-EVB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cla-4u-FRe" secondAttribute="trailing" constant="-20" id="pRn-hj-Yd6"/>
                             <constraint firstItem="dHo-hU-tzS" firstAttribute="leading" secondItem="04f-Aq-5SQ" secondAttribute="leadingMargin" id="qHV-rw-wgA"/>
                             <constraint firstItem="uMR-i9-j5g" firstAttribute="top" secondItem="hsP-c4-4Yg" secondAttribute="bottom" constant="20" id="sxI-40-4Yz"/>
                             <constraint firstItem="hsP-c4-4Yg" firstAttribute="centerX" secondItem="04f-Aq-5SQ" secondAttribute="centerX" id="vn3-KJ-f2s"/>
                             <constraint firstItem="cir-0m-fY5" firstAttribute="leading" secondItem="04f-Aq-5SQ" secondAttribute="leadingMargin" id="w9O-3R-tji"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0tc-ld-4DJ"/>
+                                <exclude reference="nw9-Vi-EVB"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Asesoramiento criminológico" id="Qlf-ML-yfm">
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="b7r-bb-FPI">

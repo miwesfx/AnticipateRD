@@ -10,6 +10,13 @@ import UIKit
 
 class ControlRiesgoVC: UITableViewController {
     
+    struct Objects {
+        var sectionName : String!
+        var sectionObjects: [String]!
+    }
+    
+    var objectsArray = [Objects]()
+    
     var NombresArray = [String]()
     var EnlacesArray = [String]()
     var ImagenesArray = [String]()
@@ -24,6 +31,8 @@ class ControlRiesgoVC: UITableViewController {
         
         ImagenesArray = ["posicion de seguridad","desplazamientos","esquivas","desvios","bloqueo","agarre muneca","agarre brazo","agarre cuello ba","agarre cuello al","agresion directo","agresion circular","agresion ascendente","agresion descendente","amenaza arma blanca","ataque arma blanca","arma contundente"]
         
+        objectsArray = [Objects(sectionName: "Procedimientos defensivos", sectionObjects: ["Posición de seguridad","Desplazamientos","Esquivas","Desvíos", "Bloqueos"]),Objects(sectionName: "Suelta de agarres", sectionObjects: ["Agarre de muñeca", "Agarre de brazo", "Agarre de cuello bajo", "Agarre de cuello arriba"]),Objects(sectionName: "Ante agresiones físicas", sectionObjects: ["Golpes directos","Golpe circular","Golpe ascendente","Golpe descendente"]),Objects(sectionName: "Ante armas blancas", sectionObjects: ["Amenaza arma blanca","Ataque arma blanca"]),Objects(sectionName: "Ante armas contundentes", sectionObjects: ["Agresión arma blanca"])]
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,14 +41,25 @@ class ControlRiesgoVC: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return NombresArray.count
+        //return NombresArray.count
+        return objectsArray[section].sectionObjects.count
+    }
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return objectsArray.count
+    }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return objectsArray[section].sectionName
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let Cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         
-        Cell.textLabel?.text = NombresArray[indexPath.row]
+        //Cell.textLabel?.text = NombresArray[indexPath.row]
+        
+        Cell.textLabel?.text = objectsArray[indexPath.section].sectionObjects[indexPath.row]
         
         //let imageView = Cell.viewWithTag(1) as! UIImageView
         
