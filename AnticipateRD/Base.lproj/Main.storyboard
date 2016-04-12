@@ -258,6 +258,9 @@
                                 <state key="normal" title="Fundación">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fundacionButton:" destination="QFS-FG-jzQ" eventType="touchUpInside" id="ubi-tp-BE6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxK-LQ-C3d">
                                 <rect key="frame" x="20" y="510" width="70" height="70"/>
