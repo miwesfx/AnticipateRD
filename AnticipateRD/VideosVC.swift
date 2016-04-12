@@ -29,6 +29,7 @@ class VideosVC: UIViewController {
         
         moviePlayer.controlStyle = MPMovieControlStyle.Embedded
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

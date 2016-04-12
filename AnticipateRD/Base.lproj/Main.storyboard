@@ -336,7 +336,7 @@
         <!--Test de riesgo-->
         <scene sceneID="jzB-rM-XRZ">
             <objects>
-                <viewController id="S6s-jS-ILz" sceneMemberID="viewController">
+                <viewController id="S6s-jS-ILz" customClass="TestPreviaVC" customModule="AnticipateRD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9uE-W2-rZt"/>
                         <viewControllerLayoutGuide type="bottom" id="KSx-zl-j9K"/>
@@ -373,14 +373,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVF-CP-Lhj">
                                 <rect key="frame" x="20" y="72" width="560" height="420"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">A continuación puede realizar una encuesta sobre situaciones de peligro a las que puede estar expuesta.
-
-Con los datos obtenidos podrá tener una aproximación al riesgo que esta corriendo y las medidas que debe de llevar acabo en tal situación.
-
-Todos los datos que pueda ver en esta aplicación son orientativos, los cuales debe constatar con las fuerzas y cuerpos de seguridad. Ellos son los que le realizaran una valoración del riesgo objetiva.
-
-Conteste SÍ o No a cada una de las siguientes preguntas.
-Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una relación personal con usted.</string>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -410,6 +402,9 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="cuadroTexto" destination="WVF-CP-Lhj" id="MtH-gN-RjL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zof-zi-kIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -888,17 +883,22 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
         <scene sceneID="Wcp-pW-chE">
             <objects>
                 <tableViewController id="fr9-hs-UEO" customClass="ControlRiesgoVC" customModule="AnticipateRD" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="InJ-Ss-DU4">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="28" sectionFooterHeight="28" id="InJ-Ss-DU4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="9U8-99-zaG">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" tag="1" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="9U8-99-zaG">
+                                <rect key="frame" x="0.0" y="92" width="600" height="99"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9U8-99-zaG" id="5CQ-SA-RMa">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" tableViewCell="9U8-99-zaG" id="5CQ-SA-RMa">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="98"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PNN-Cb-ci1">
+                                            <rect key="frame" x="8" y="0.0" width="88" height="90"/>
+                                        </imageView>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="rCU-aH-Gvh" kind="show" id="efg-QU-dCH"/>
