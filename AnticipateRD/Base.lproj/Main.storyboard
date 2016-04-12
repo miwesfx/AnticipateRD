@@ -117,9 +117,13 @@
                                     <segue destination="bPA-Ka-CUw" kind="show" id="WLM-1k-eeo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwR-EX-8oZ">
-                                <rect key="frame" x="20" y="550" width="80" height="30"/>
-                                <state key="normal" title="Promotores">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwR-EX-8oZ">
+                                <rect key="frame" x="20" y="510" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="BIo-4H-qC6"/>
+                                    <constraint firstAttribute="width" constant="70" id="yMo-uG-xMB"/>
+                                </constraints>
+                                <state key="normal" image="letrai">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -244,18 +248,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHz-PR-CZP">
-                                <rect key="frame" x="512" y="550" width="68" height="30"/>
-                                <state key="normal" title="Scenarios">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHz-PR-CZP">
+                                <rect key="frame" x="510" y="510" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="dJX-qj-LxV"/>
+                                    <constraint firstAttribute="width" constant="70" id="gTw-YQ-ran"/>
+                                </constraints>
+                                <state key="normal" image="botonScenarios">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="ScenariosButton:" destination="QFS-FG-jzQ" eventType="touchUpInside" id="RA9-vK-NeY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuK-Ns-i0m">
-                                <rect key="frame" x="264" y="550" width="72" height="30"/>
-                                <state key="normal" title="Fundación">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuK-Ns-i0m">
+                                <rect key="frame" x="265" y="510" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="KRL-cN-035"/>
+                                    <constraint firstAttribute="width" constant="70" id="LqQ-7Z-bzM"/>
+                                </constraints>
+                                <state key="normal" image="botonFundacion">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -958,7 +970,10 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
         <image name="Seg personal" width="531" height="111"/>
         <image name="Servicios especializados" width="177" height="37"/>
         <image name="asesoramiento" width="177" height="37"/>
+        <image name="botonFundacion" width="111" height="111"/>
+        <image name="botonScenarios" width="111" height="111"/>
         <image name="controlderiesgo" width="177" height="37"/>
+        <image name="letrai" width="111" height="111"/>
         <image name="no" width="64" height="63"/>
         <image name="seguridadpersonal" width="177" height="37"/>
         <image name="sentadillas" width="341" height="265"/>
