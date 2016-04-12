@@ -13,6 +13,7 @@ class ControlRiesgoVC: UITableViewController {
     struct Objects {
         var sectionName : String!
         var sectionObjects: [String]!
+        var sectionURL: [String]!
     }
     
     var objectsArray = [Objects]()
@@ -31,7 +32,7 @@ class ControlRiesgoVC: UITableViewController {
         
         ImagenesArray = ["posicion de seguridad","desplazamientos","esquivas","desvios","bloqueo","agarre muneca","agarre brazo","agarre cuello ba","agarre cuello al","agresion directo","agresion circular","agresion ascendente","agresion descendente","amenaza arma blanca","ataque arma blanca","arma contundente"]
         
-        objectsArray = [Objects(sectionName: "Procedimientos defensivos", sectionObjects: ["Posición de seguridad","Desplazamientos","Esquivas","Desvíos", "Bloqueos"]),Objects(sectionName: "Suelta de agarres", sectionObjects: ["Agarre de muñeca", "Agarre de brazo", "Agarre de cuello bajo", "Agarre de cuello arriba"]),Objects(sectionName: "Ante agresiones físicas", sectionObjects: ["Golpes directos","Golpe circular","Golpe ascendente","Golpe descendente"]),Objects(sectionName: "Ante armas blancas", sectionObjects: ["Amenaza arma blanca","Ataque arma blanca"]),Objects(sectionName: "Ante armas contundentes", sectionObjects: ["Agresión arma blanca"])]
+        objectsArray = [Objects(sectionName: "Procedimientos defensivos", sectionObjects: ["Posición de seguridad","Desplazamientos","Esquivas","Desvíos", "Bloqueos"], sectionURL: ["http://videos.escuelaprevencionviolencia.es/vg/posicionr.mp4","http://videos.escuelaprevencionviolencia.es/vg/desplazamientosr.mp4","http://videos.escuelaprevencionviolencia.es/vg/esquivar.mp4","http://videos.escuelaprevencionviolencia.es/vg/desviosr.mp4","http://videos.escuelaprevencionviolencia.es/vg/bloqueosr.mp4"]),Objects(sectionName: "Suelta de agarres", sectionObjects: ["Agarre de muñeca", "Agarre de brazo", "Agarre de cuello bajo", "Agarre de cuello arriba"], sectionURL: ["http://videos.escuelaprevencionviolencia.es/vg/munecar.mp4", "http://videos.escuelaprevencionviolencia.es/vg/brazor.mp4", "http://videos.escuelaprevencionviolencia.es/vg/cuellobajor.mp4", "http://videos.escuelaprevencionviolencia.es/vg/cuelloarribar.mp4"]),Objects(sectionName: "Ante agresiones físicas", sectionObjects: ["Golpes directos","Golpe circular","Golpe ascendente","Golpe descendente"],sectionURL: ["http://videos.escuelaprevencionviolencia.es/vg/director.mp4","http://videos.escuelaprevencionviolencia.es/vg/cirularr.mp4","http://videos.escuelaprevencionviolencia.es/vg/ascendenter.mp4","http://videos.escuelaprevencionviolencia.es/vg/descendenter.mp4"]),Objects(sectionName: "Ante armas blancas", sectionObjects: ["Amenaza arma blanca","Ataque arma blanca"],sectionURL: ["http://videos.escuelaprevencionviolencia.es/vg/blancadelanter.mp4","http://videos.escuelaprevencionviolencia.es/vg/blancar.mp4"]),Objects(sectionName: "Ante armas contundentes", sectionObjects: ["Agresión arma blanca"], sectionURL: ["http://videos.escuelaprevencionviolencia.es/vg/contundenter.mp4"])]
         
     }
     
@@ -52,6 +53,20 @@ class ControlRiesgoVC: UITableViewController {
     override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return objectsArray[section].sectionName
     }
+    
+    /*override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let vista = UIView()
+        vista.backgroundColor = UIColor.greenColor()
+        
+        let etiqueta = UILabel()
+        etiqueta.text = objectsArray[section].sectionName
+        etiqueta.textColor = UIColor.redColor()
+        etiqueta.textAlignment = NSTextAlignment.Center
+        
+        vista.addSubview(etiqueta)
+        
+        return vista
+    }*/
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
@@ -74,7 +89,8 @@ class ControlRiesgoVC: UITableViewController {
         
         let DestViewController = segue.destinationViewController as! VideosVC
         
-        DestViewController.cadena = EnlacesArray[indexPath.row]
+        //DestViewController.cadena = EnlacesArray[indexPath.row]
+        DestViewController.cadena = objectsArray[indexPath.section].sectionURL[indexPath.row]
     }
     
 }
