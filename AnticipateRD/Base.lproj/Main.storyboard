@@ -436,57 +436,49 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                                     <constraint firstAttribute="height" constant="150" id="IxJ-e5-NHS"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEK-Tg-P06">
-                                <rect key="frame" x="20" y="453" width="177" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="177" id="Dez-eW-tVw"/>
-                                    <constraint firstAttribute="height" constant="37" id="s9d-Zc-xbM"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEK-Tg-P06">
+                                <rect key="frame" x="20" y="305" width="276" height="111"/>
                                 <state key="normal" image="Definicion"/>
                                 <connections>
                                     <action selector="definicionButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="dZc-VW-ARR"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oh7-fx-Il6">
+                                <rect key="frame" x="20" y="230" width="560" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myJ-uY-TSR">
+                                <rect key="frame" x="304" y="305" width="276" height="185"/>
+                                <state key="normal" image="Rasgos"/>
+                                <connections>
+                                    <action selector="rasgosButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="7oY-js-W2A"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcH-1B-xII">
-                                <rect key="frame" x="20" y="498" width="177" height="37"/>
+                                <rect key="frame" x="20" y="424" width="276" height="37"/>
                                 <state key="normal" image="Conductas"/>
                                 <connections>
                                     <action selector="conductasButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="4Mj-eY-ilc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkt-Ag-1rM">
-                                <rect key="frame" x="403" y="498" width="177" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rkt-Ag-1rM">
+                                <rect key="frame" x="304" y="498" width="276" height="37"/>
                                 <state key="normal" image="Que hacer"/>
                                 <connections>
                                     <action selector="quehacerButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="uTl-o1-X5L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uda-FL-XfH">
-                                <rect key="frame" x="20" y="543" width="177" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="Y5y-qt-xyl"/>
-                                    <constraint firstAttribute="width" constant="177" id="xcX-iL-9G9"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="469" width="276" height="111"/>
                                 <state key="normal" image="Orden de proteccion"/>
                                 <connections>
                                     <action selector="ordenButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="Kom-j2-m15"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oh7-fx-Il6">
-                                <rect key="frame" x="20" y="230" width="560" height="215"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myJ-uY-TSR">
-                                <rect key="frame" x="403" y="453" width="177" height="37"/>
-                                <state key="normal" image="Rasgos"/>
-                                <connections>
-                                    <action selector="rasgosButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="7oY-js-W2A"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Co-js-pkr">
-                                <rect key="frame" x="403" y="543" width="177" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Co-js-pkr">
+                                <rect key="frame" x="304" y="543" width="276" height="37"/>
                                 <state key="normal" image="Servicios especializados"/>
                                 <connections>
                                     <action selector="serviciosButton:" destination="N34-8d-PZ0" eventType="touchUpInside" id="IPO-Zt-Zxv"/>
@@ -495,6 +487,7 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Uda-FL-XfH" firstAttribute="width" secondItem="hEK-Tg-P06" secondAttribute="width" id="3O3-lx-kdV"/>
                             <constraint firstItem="myJ-uY-TSR" firstAttribute="trailing" secondItem="voW-zo-n36" secondAttribute="trailingMargin" id="5AZ-K2-0CJ"/>
                             <constraint firstItem="G9Y-Ge-QYi" firstAttribute="leading" secondItem="voW-zo-n36" secondAttribute="leadingMargin" id="5gm-LS-56a"/>
                             <constraint firstItem="Rkt-Ag-1rM" firstAttribute="top" secondItem="myJ-uY-TSR" secondAttribute="bottom" constant="8" id="6nX-1n-E7O"/>
@@ -503,26 +496,36 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                             <constraint firstItem="hEK-Tg-P06" firstAttribute="leading" secondItem="voW-zo-n36" secondAttribute="leadingMargin" id="EH2-LZ-Xrx"/>
                             <constraint firstItem="1Co-js-pkr" firstAttribute="top" secondItem="Rkt-Ag-1rM" secondAttribute="bottom" constant="8" id="Jsx-eN-XvQ"/>
                             <constraint firstAttribute="trailing" secondItem="HhX-jx-Tz6" secondAttribute="trailing" id="Nik-Gf-ESx"/>
+                            <constraint firstItem="1Co-js-pkr" firstAttribute="width" secondItem="hEK-Tg-P06" secondAttribute="width" id="O6k-kY-hw7"/>
                             <constraint firstItem="ZcH-1B-xII" firstAttribute="top" secondItem="hEK-Tg-P06" secondAttribute="bottom" constant="8" id="O7l-GC-sq2"/>
                             <constraint firstItem="Uda-FL-XfH" firstAttribute="top" secondItem="ZcH-1B-xII" secondAttribute="bottom" constant="8" id="Qx4-u6-gDl"/>
+                            <constraint firstItem="myJ-uY-TSR" firstAttribute="leading" secondItem="hEK-Tg-P06" secondAttribute="trailing" constant="8" id="SE8-QT-tUd"/>
+                            <constraint firstItem="ZcH-1B-xII" firstAttribute="width" secondItem="hEK-Tg-P06" secondAttribute="width" id="T6R-jD-6t5"/>
                             <constraint firstItem="oh7-fx-Il6" firstAttribute="top" secondItem="G9Y-Ge-QYi" secondAttribute="bottom" constant="8" id="TLq-8S-YmH"/>
                             <constraint firstItem="G9Y-Ge-QYi" firstAttribute="trailing" secondItem="voW-zo-n36" secondAttribute="trailingMargin" id="VZE-i0-DSY"/>
                             <constraint firstItem="Uda-FL-XfH" firstAttribute="top" secondItem="ZcH-1B-xII" secondAttribute="bottom" constant="8" id="YAz-9V-RAV"/>
+                            <constraint firstItem="Rkt-Ag-1rM" firstAttribute="width" secondItem="hEK-Tg-P06" secondAttribute="width" id="YH9-Iz-GjD"/>
                             <constraint firstItem="HhX-jx-Tz6" firstAttribute="leading" secondItem="voW-zo-n36" secondAttribute="leading" id="YbF-Ke-ZmL"/>
                             <constraint firstItem="iCT-62-cbZ" firstAttribute="top" secondItem="Uda-FL-XfH" secondAttribute="bottom" constant="20" id="ZLk-bc-X0h"/>
                             <constraint firstItem="hEK-Tg-P06" firstAttribute="top" secondItem="oh7-fx-Il6" secondAttribute="bottom" constant="8" id="b1B-LH-6p8"/>
                             <constraint firstItem="1Co-js-pkr" firstAttribute="trailing" secondItem="voW-zo-n36" secondAttribute="trailingMargin" id="bKU-zJ-Y6O"/>
+                            <constraint firstItem="Rkt-Ag-1rM" firstAttribute="leading" secondItem="ZcH-1B-xII" secondAttribute="trailing" constant="8" id="bfa-mw-pcJ"/>
                             <constraint firstItem="G9Y-Ge-QYi" firstAttribute="top" secondItem="tgq-HF-MYz" secondAttribute="bottom" constant="8" id="dcL-rf-Iam"/>
                             <constraint firstItem="HhX-jx-Tz6" firstAttribute="top" secondItem="tgq-HF-MYz" secondAttribute="bottom" id="foK-nY-PE6"/>
+                            <constraint firstItem="Rkt-Ag-1rM" firstAttribute="leading" secondItem="ZcH-1B-xII" secondAttribute="trailing" constant="8" id="gbD-Cf-CwI"/>
                             <constraint firstItem="1Co-js-pkr" firstAttribute="top" secondItem="Rkt-Ag-1rM" secondAttribute="bottom" constant="8" id="hga-9w-rHE"/>
                             <constraint firstItem="iCT-62-cbZ" firstAttribute="top" secondItem="1Co-js-pkr" secondAttribute="bottom" constant="20" id="j0o-BG-J2m"/>
                             <constraint firstItem="ZcH-1B-xII" firstAttribute="leading" secondItem="voW-zo-n36" secondAttribute="leadingMargin" id="jEg-vh-AC6"/>
+                            <constraint firstItem="1Co-js-pkr" firstAttribute="leading" secondItem="Uda-FL-XfH" secondAttribute="trailing" constant="8" id="k4q-7J-It5"/>
+                            <constraint firstItem="1Co-js-pkr" firstAttribute="leading" secondItem="Uda-FL-XfH" secondAttribute="trailing" constant="8" id="kKR-Az-H2N"/>
                             <constraint firstItem="oh7-fx-Il6" firstAttribute="leading" secondItem="voW-zo-n36" secondAttribute="leadingMargin" id="nhN-yo-jAJ"/>
                             <constraint firstItem="Rkt-Ag-1rM" firstAttribute="trailing" secondItem="voW-zo-n36" secondAttribute="trailingMargin" id="pNv-0B-sCm"/>
+                            <constraint firstItem="myJ-uY-TSR" firstAttribute="width" secondItem="hEK-Tg-P06" secondAttribute="width" id="t9U-Xn-muh"/>
                             <constraint firstItem="myJ-uY-TSR" firstAttribute="top" secondItem="oh7-fx-Il6" secondAttribute="bottom" constant="8" id="vYH-Ew-RwL"/>
                             <constraint firstItem="ZcH-1B-xII" firstAttribute="top" secondItem="hEK-Tg-P06" secondAttribute="bottom" constant="8" id="vcA-tI-HZ4"/>
                             <constraint firstItem="oh7-fx-Il6" firstAttribute="top" secondItem="G9Y-Ge-QYi" secondAttribute="bottom" constant="8" id="yKI-vg-L1Z"/>
                             <constraint firstItem="iCT-62-cbZ" firstAttribute="top" secondItem="HhX-jx-Tz6" secondAttribute="bottom" id="zry-zV-Bgy"/>
+                            <constraint firstItem="myJ-uY-TSR" firstAttribute="leading" secondItem="hEK-Tg-P06" secondAttribute="trailing" constant="8" id="zwA-J9-aPL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="ZMp-TH-JY6">
@@ -785,49 +788,50 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj6-z2-dLb">
-                                <rect key="frame" x="20" y="498" width="177" height="37"/>
+                                <rect key="frame" x="20" y="498" width="276" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="EEO-8V-WrA"/>
                                     <constraint firstAttribute="width" constant="177" id="pWB-G0-MAn"/>
                                 </constraints>
                                 <state key="normal" image="Al salir de casa"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pWB-G0-MAn"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="salirButton:" destination="R4B-Dw-CmJ" eventType="touchUpInside" id="nbI-sS-naV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Q7-jN-Uha">
-                                <rect key="frame" x="403" y="498" width="177" height="37"/>
+                                <rect key="frame" x="304" y="498" width="276" height="37"/>
                                 <state key="normal" image="Al dirigirse a algun lugar"/>
                                 <connections>
                                     <action selector="lugarButton:" destination="R4B-Dw-CmJ" eventType="touchUpInside" id="HEB-1Q-E2q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cma-cv-LPB">
-                                <rect key="frame" x="20" y="543" width="177" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cma-cv-LPB">
+                                <rect key="frame" x="20" y="543" width="276" height="37"/>
                                 <state key="normal" image="Al llegar a casa"/>
                                 <connections>
                                     <action selector="llegarButton:" destination="R4B-Dw-CmJ" eventType="touchUpInside" id="Txt-zv-Pzf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCW-0X-Fuy">
-                                <rect key="frame" x="403" y="543" width="177" height="37"/>
+                                <rect key="frame" x="304" y="543" width="276" height="37"/>
                                 <state key="normal" image="Consejos finales"/>
                                 <connections>
                                     <action selector="consejosButton:" destination="R4B-Dw-CmJ" eventType="touchUpInside" id="ZSn-yl-JLb"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZ7-oI-ram">
-                                <rect key="frame" x="20" y="72" width="560" height="373"/>
+                                <rect key="frame" x="20" y="72" width="560" height="299"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAV-aD-mZZ">
-                                <rect key="frame" x="20" y="453" width="177" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="5Rg-LX-Cbw"/>
-                                    <constraint firstAttribute="width" constant="177" id="mwV-tj-aAp"/>
-                                </constraints>
+                                <rect key="frame" x="162" y="379" width="276" height="111"/>
                                 <state key="normal" image="Seg personal"/>
                                 <connections>
                                     <action selector="seguridadButton:" destination="R4B-Dw-CmJ" eventType="touchUpInside" id="qrU-dm-qeL"/>
@@ -836,6 +840,7 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="8Q7-jN-Uha" firstAttribute="leading" secondItem="Oj6-z2-dLb" secondAttribute="trailing" constant="8" id="59A-3j-4YM"/>
                             <constraint firstItem="Cma-cv-LPB" firstAttribute="leading" secondItem="TQF-Ol-gFY" secondAttribute="leadingMargin" id="7FY-b8-mum"/>
                             <constraint firstItem="QZ7-oI-ram" firstAttribute="top" secondItem="6Nz-86-Vrq" secondAttribute="bottom" constant="8" id="EPJ-69-8dh"/>
                             <constraint firstItem="rCW-0X-Fuy" firstAttribute="top" secondItem="8Q7-jN-Uha" secondAttribute="bottom" constant="8" id="F09-eO-0gb"/>
@@ -843,16 +848,23 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                             <constraint firstItem="Oj6-z2-dLb" firstAttribute="top" secondItem="sAV-aD-mZZ" secondAttribute="bottom" constant="8" id="HDQ-jK-UsS"/>
                             <constraint firstItem="rCW-0X-Fuy" firstAttribute="trailing" secondItem="TQF-Ol-gFY" secondAttribute="trailingMargin" id="HGA-hX-Va3"/>
                             <constraint firstAttribute="trailing" secondItem="DmV-pK-hEz" secondAttribute="trailing" id="In4-Ox-RLJ"/>
+                            <constraint firstItem="rCW-0X-Fuy" firstAttribute="leading" secondItem="Cma-cv-LPB" secondAttribute="trailing" constant="8" id="PKf-TA-o5I"/>
                             <constraint firstItem="DmV-pK-hEz" firstAttribute="leading" secondItem="TQF-Ol-gFY" secondAttribute="leading" id="RPR-KI-S6y"/>
                             <constraint firstItem="rCW-0X-Fuy" firstAttribute="top" secondItem="8Q7-jN-Uha" secondAttribute="bottom" constant="8" id="RPT-h0-HFg"/>
                             <constraint firstItem="CLk-WC-r8M" firstAttribute="top" secondItem="rCW-0X-Fuy" secondAttribute="bottom" constant="20" id="Rbs-D0-0wx"/>
+                            <constraint firstItem="8Q7-jN-Uha" firstAttribute="width" secondItem="sAV-aD-mZZ" secondAttribute="width" id="ULh-fX-V8R"/>
                             <constraint firstItem="sAV-aD-mZZ" firstAttribute="top" secondItem="QZ7-oI-ram" secondAttribute="bottom" constant="8" id="Waj-G8-gtK"/>
                             <constraint firstItem="QZ7-oI-ram" firstAttribute="trailing" secondItem="TQF-Ol-gFY" secondAttribute="trailingMargin" id="Z6W-TK-UPe"/>
+                            <constraint firstItem="Cma-cv-LPB" firstAttribute="width" secondItem="sAV-aD-mZZ" secondAttribute="width" id="aB4-fy-RQP"/>
                             <constraint firstItem="DmV-pK-hEz" firstAttribute="top" secondItem="6Nz-86-Vrq" secondAttribute="bottom" id="baz-BA-7Eb"/>
                             <constraint firstItem="QZ7-oI-ram" firstAttribute="leading" secondItem="TQF-Ol-gFY" secondAttribute="leadingMargin" id="dI6-dG-tek"/>
+                            <constraint firstItem="8Q7-jN-Uha" firstAttribute="leading" secondItem="Oj6-z2-dLb" secondAttribute="trailing" constant="8" id="duV-Rr-N7T"/>
+                            <constraint firstItem="Oj6-z2-dLb" firstAttribute="width" secondItem="sAV-aD-mZZ" secondAttribute="width" id="eO1-93-OMq"/>
                             <constraint firstItem="CLk-WC-r8M" firstAttribute="top" secondItem="DmV-pK-hEz" secondAttribute="bottom" id="f4m-GI-5sI"/>
+                            <constraint firstItem="sAV-aD-mZZ" firstAttribute="centerX" secondItem="TQF-Ol-gFY" secondAttribute="centerX" id="gTK-gR-mZO"/>
+                            <constraint firstItem="rCW-0X-Fuy" firstAttribute="leading" secondItem="Cma-cv-LPB" secondAttribute="trailing" constant="8" id="gus-7p-a8j"/>
                             <constraint firstItem="Oj6-z2-dLb" firstAttribute="leading" secondItem="TQF-Ol-gFY" secondAttribute="leadingMargin" id="jDV-Ef-R0g"/>
-                            <constraint firstItem="sAV-aD-mZZ" firstAttribute="leading" secondItem="TQF-Ol-gFY" secondAttribute="leadingMargin" id="rDM-rb-vC7"/>
+                            <constraint firstItem="rCW-0X-Fuy" firstAttribute="width" secondItem="sAV-aD-mZZ" secondAttribute="width" id="jG3-lb-akf"/>
                             <constraint firstItem="8Q7-jN-Uha" firstAttribute="trailing" secondItem="TQF-Ol-gFY" secondAttribute="trailingMargin" id="wl4-VS-rlp"/>
                             <constraint firstItem="sAV-aD-mZZ" firstAttribute="top" secondItem="QZ7-oI-ram" secondAttribute="bottom" constant="8" id="xsP-AI-PQo"/>
                             <constraint firstItem="Cma-cv-LPB" firstAttribute="top" secondItem="Oj6-z2-dLb" secondAttribute="bottom" constant="8" id="zbQ-Y6-v39"/>
@@ -947,7 +959,7 @@ Las preguntas se refieren a su marido, pareja, novio o persona que mantiene una 
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOf-S3-CW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="473" y="1047"/>
+            <point key="canvasLocation" x="425" y="387"/>
         </scene>
     </scenes>
     <resources>
