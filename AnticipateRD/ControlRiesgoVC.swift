@@ -22,7 +22,7 @@ class ControlRiesgoVC: UITableViewController {
         
         EnlacesArray = ["http://videos.escuelaprevencionviolencia.es/vg/posicionr.mp4", "http://videos.escuelaprevencionviolencia.es/vg/desplazamientosr.mp4", "http://videos.escuelaprevencionviolencia.es/vg/esquivar.mp4","http://videos.escuelaprevencionviolencia.es/vg/desviosr.mp4","http://videos.escuelaprevencionviolencia.es/vg/bloqueosr.mp4", "http://videos.escuelaprevencionviolencia.es/vg/munecar.mp4", "http://videos.escuelaprevencionviolencia.es/vg/brazor.mp4", "http://videos.escuelaprevencionviolencia.es/vg/cuellobajor.mp4", "http://videos.escuelaprevencionviolencia.es/vg/cuelloarribar.mp4", "http://videos.escuelaprevencionviolencia.es/vg/director.mp4","http://videos.escuelaprevencionviolencia.es/vg/cirularr.mp4","http://videos.escuelaprevencionviolencia.es/vg/ascendenter.mp4","http://videos.escuelaprevencionviolencia.es/vg/descendenter.mp4","http://videos.escuelaprevencionviolencia.es/vg/blancadelanter.mp4","http://videos.escuelaprevencionviolencia.es/vg/blancar.mp4","http://videos.escuelaprevencionviolencia.es/vg/contundenter.mp4"]
         
-        ImagenesArray = ["abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso","abuso"]
+        ImagenesArray = ["posicion de seguridad","desplazamientos","esquivas","desvios","bloqueo","agarre muneca","agarre brazo","agarre cuello ba","agarre cuello al","agresion directo","agresion circular","agresion ascendente","agresion descendente","amenaza arma blanca","ataque arma blanca","arma contundente"]
         
     }
     
