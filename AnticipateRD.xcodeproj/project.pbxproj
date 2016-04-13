@@ -23,6 +23,7 @@
 		49D737BA1CB7CA2700B7DD07 /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D737B91CB7CA2700B7DD07 /* VideosVC.swift */; };
 		49D737BC1CB7DF3200B7DD07 /* AsesoramientoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D737BB1CB7DF3200B7DD07 /* AsesoramientoVC.swift */; };
 		49D737BE1CBA75C400B7DD07 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D737BD1CBA75C400B7DD07 /* TestVC.swift */; };
+		B969F45B1CBE2BAD00A116AE /* AVPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B969F45A1CBE2BAD00A116AE /* AVPlayerVC.swift */; };
 		B99E7C7F1CBD121A00229181 /* TestPreviaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99E7C7E1CBD121A00229181 /* TestPreviaVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		49D737B91CB7CA2700B7DD07 /* VideosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
 		49D737BB1CB7DF3200B7DD07 /* AsesoramientoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsesoramientoVC.swift; sourceTree = "<group>"; };
 		49D737BD1CBA75C400B7DD07 /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		B969F45A1CBE2BAD00A116AE /* AVPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerVC.swift; sourceTree = "<group>"; };
 		B99E7C7E1CBD121A00229181 /* TestPreviaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPreviaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 		49D737AC1CB7AAEA00B7DD07 /* Support files */ = {
 			isa = PBXGroup;
 			children = (
+				B969F45A1CBE2BAD00A116AE /* AVPlayerVC.swift */,
 				B99E7C7E1CBD121A00229181 /* TestPreviaVC.swift */,
 				49C143461CBBC189006F5BDD /* InfoVC.swift */,
 				49C143441CBBB769006F5BDD /* PromotoresVC.swift */,
@@ -306,6 +309,7 @@
 				49D737B81CB7C9BE00B7DD07 /* ControlRiesgoVC.swift in Sources */,
 				49D737BE1CBA75C400B7DD07 /* TestVC.swift in Sources */,
 				49D737BA1CB7CA2700B7DD07 /* VideosVC.swift in Sources */,
+				B969F45B1CBE2BAD00A116AE /* AVPlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

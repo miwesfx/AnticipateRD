@@ -7,29 +7,46 @@
 //
 
 import UIKit
-import MediaPlayer
+//import MediaPlayer
+import AVKit
+import AVFoundation
 
 class VideosVC: UIViewController {
     
     var cadena = String()
     
-    var moviePlayer:MPMoviePlayerController!
+    //var moviePlayer:MPMoviePlayerController!
+    
+    var playerViewController = AVPlayerViewController()
+    var playerView = AVPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url:NSURL = NSURL(string: cadena)!
+        //let url:NSURL = NSURL(string: cadena)!
         
-        moviePlayer = MPMoviePlayerController(contentURL: url)
+        
+        /*moviePlayer = MPMoviePlayerController(contentURL: url)
         moviePlayer.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
         
         self.view.addSubview(moviePlayer.view)
         moviePlayer.fullscreen = true
         
-        moviePlayer.controlStyle = MPMovieControlStyle.Embedded
+        moviePlayer.controlStyle = MPMovieControlStyle.Embedded*/
     }
 
+    /*override func viewDidAppear(animated: Bool) {
+        let url:NSURL = NSURL(string: cadena)!
+        playerView = AVPlayer(URL: url)
+        
+        playerViewController.player = playerView
+        
+        self.presentViewController(playerViewController, animated: true){
+            self.playerViewController.player?.play()
+        }
+        
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -37,10 +54,6 @@ class VideosVC: UIViewController {
     }
     
     override func viewDidDisappear(animated: Bool) {
-        if (moviePlayer.fullscreen != true){
-            moviePlayer.stop()
-        }
+        //self.playerViewController.player?.pause()
     }
-    
-    
 }

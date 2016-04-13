@@ -901,7 +901,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="rCU-aH-Gvh" kind="show" id="efg-QU-dCH"/>
+                                    <segue destination="bxP-6C-EPI" kind="showDetail" id="ADf-gb-ucu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -920,28 +920,13 @@
             </objects>
             <point key="canvasLocation" x="2854" y="-1070"/>
         </scene>
-        <!--Vídeos-->
-        <scene sceneID="26z-a8-qad">
+        <!--AV Player View Controller-->
+        <scene sceneID="zPR-gg-vxJ">
             <objects>
-                <viewController id="rCU-aH-Gvh" customClass="VideosVC" customModule="AnticipateRD" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="g3z-RY-Xxf"/>
-                        <viewControllerLayoutGuide type="bottom" id="9g2-n9-tfv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pf4-aE-5fU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Vídeos" id="dC4-1m-Pac">
-                        <barButtonItem key="rightBarButtonItem" image="Inicio" id="UIv-eo-CzT">
-                            <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c61-Dw-6Wl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OaR-BC-tmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="bxP-6C-EPI" customClass="AVPlayerVC" customModule="AnticipateRD" customModuleProvider="target" sceneMemberID="viewController"/>
             </objects>
-            <point key="canvasLocation" x="3663" y="-1064"/>
+            <point key="canvasLocation" x="3669" y="-1070"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rid-1G-AT6">
