@@ -49,9 +49,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Ejercicio del día" id="ePT-wI-QJb">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="8RH-Re-9Xb"/>
                         <barButtonItem key="rightBarButtonItem" title="Ayuda" id="TIU-3g-j7U">
                             <connections>
-                                <segue destination="I2e-lO-TA9" kind="show" id="nsX-gq-Ol1"/>
+                                <segue destination="XwE-rY-qWL" kind="show" id="nsX-gq-Ol1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -205,14 +206,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Anticípate" id="UAJ-FY-QFO">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="sTW-3s-2GF"/>
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="tRM-NK-Vd7">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="e7u-Ny-cbo"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d47-zX-ttf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021" y="387"/>
+            <point key="canvasLocation" x="2833" y="387"/>
         </scene>
         <!--Promotores-->
         <scene sceneID="lWZ-2o-LOJ">
@@ -322,6 +327,9 @@
                     <navigationItem key="navigationItem" title="Promotores" id="t51-nb-xox">
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="3I7-c0-xhJ">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="MWd-gK-RHU"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -398,8 +406,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Test de riesgo" id="Z77-c8-mOd">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="rii-aN-4gV"/>
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="mlG-TD-NC0">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="vuj-WF-oqJ"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -408,7 +420,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zof-zi-kIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2854" y="387"/>
+            <point key="canvasLocation" x="3666" y="387"/>
         </scene>
         <!--Info-->
         <scene sceneID="UNp-tJ-2Mg">
@@ -526,6 +538,9 @@
                     <navigationItem key="navigationItem" title="Info" id="ZMp-TH-JY6">
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="Ra1-ti-Ik4">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="9Pt-v6-jnb"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -643,8 +658,12 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Test de riesgo" id="Ns4-K3-L1b">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="bI9-Ga-KAz"/>
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="bj6-SL-Fsq">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="BXv-Ok-U2I"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -655,7 +674,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cIg-Tt-XTC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3533" y="387"/>
+            <point key="canvasLocation" x="4345" y="387"/>
         </scene>
         <!--Asesoramiento criminológico-->
         <scene sceneID="oRG-0c-0TA">
@@ -756,6 +775,9 @@
                     <navigationItem key="navigationItem" title="Asesoramiento criminológico" id="Qlf-ML-yfm">
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="b7r-bb-FPI">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="T6g-kv-JXE"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -869,6 +891,9 @@
                     <navigationItem key="navigationItem" title="Seguridad personal" id="oz8-mC-e4N">
                         <barButtonItem key="rightBarButtonItem" image="Inicio" id="d9O-wf-8HH">
                             <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="XPd-Nk-9HB"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -910,11 +935,7 @@
                             <outlet property="delegate" destination="fr9-hs-UEO" id="DeL-cL-cni"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Control de riesgo" id="EnT-8P-658">
-                        <barButtonItem key="rightBarButtonItem" image="Inicio" id="jJn-7a-ZQx">
-                            <color key="tintColor" red="0.4941176471" green="0.40000000000000002" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Control de riesgo" id="EnT-8P-658"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LtP-RT-WJ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -923,8 +944,8 @@
         <!--AV Player View Controller-->
         <scene sceneID="zPR-gg-vxJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OaR-BC-tmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="bxP-6C-EPI" customClass="AVPlayerVC" customModule="AnticipateRD" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OaR-BC-tmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3669" y="-1070"/>
         </scene>
@@ -944,7 +965,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOf-S3-CW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="425" y="387"/>
+            <point key="canvasLocation" x="566" y="387"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cat-Oc-viy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XwE-rY-qWL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jhO-dk-r49">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I2e-lO-TA9" kind="relationship" relationship="rootViewController" id="v3u-Jc-75g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uh6-vt-rfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2021" y="387"/>
         </scene>
     </scenes>
     <resources>
@@ -978,4 +1017,7 @@
         <image name="testderiesgo" width="177" height="37"/>
         <image name="verde" width="177" height="67"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="BXv-Ok-U2I"/>
+    </inferredMetricsTieBreakers>
 </document>
