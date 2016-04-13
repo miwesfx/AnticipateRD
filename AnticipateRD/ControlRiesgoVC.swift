@@ -22,6 +22,7 @@ class ControlRiesgoVC: UITableViewController {
     var objectsArray = [Objects]()
     
     
+    @IBOutlet weak var inicio: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +75,8 @@ class ControlRiesgoVC: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
+        if(sender!.tag != 2) //Utilizo el tag para distinguir el botón de la casita de las pulsaciones de los vídeos
+        {
         let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
         
         let DestViewController = segue.destinationViewController as! AVPlayerVC
@@ -81,6 +84,7 @@ class ControlRiesgoVC: UITableViewController {
         let direccion = NSURL(string: objectsArray[indexPath.section].sectionURL[indexPath.row])!
         DestViewController.player = AVPlayer(URL: direccion)
         DestViewController.player?.play()
+        }
     }
     
 }

@@ -935,7 +935,17 @@
                             <outlet property="delegate" destination="fr9-hs-UEO" id="DeL-cL-cni"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Control de riesgo" id="EnT-8P-658"/>
+                    <navigationItem key="navigationItem" title="Control de riesgo" id="EnT-8P-658">
+                        <barButtonItem key="rightBarButtonItem" tag="2" image="Inicio" id="47e-17-WPE">
+                            <color key="tintColor" red="0.41960784309999999" green="0.31372549020000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="TfS-RN-Moj" kind="show" id="4lC-yc-b9t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="inicio" destination="47e-17-WPE" id="Vhz-9c-fJh"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LtP-RT-WJ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -965,7 +975,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOf-S3-CW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="566" y="387"/>
+            <point key="canvasLocation" x="482" y="387"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cat-Oc-viy">
@@ -1018,6 +1028,6 @@
         <image name="verde" width="177" height="67"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BXv-Ok-U2I"/>
+        <segue reference="4lC-yc-b9t"/>
     </inferredMetricsTieBreakers>
 </document>
