@@ -49,19 +49,18 @@ class ControlRiesgoVC: UITableViewController {
         return objectsArray[section].sectionName
     }
     
-    /*override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let vista = UIView()
-        vista.backgroundColor = UIColor.greenColor()
+    
+    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int)
+    {
+        let title = UILabel()
+        //title.font = UIFont(name: "Futura", size: 38)!
+        title.textColor = UIColor.whiteColor()
         
-        let etiqueta = UILabel()
-        etiqueta.text = objectsArray[section].sectionName
-        etiqueta.textColor = UIColor.redColor()
-        etiqueta.textAlignment = NSTextAlignment.Center
-        
-        vista.addSubview(etiqueta)
-        
-        return vista
-    }*/
+        let header = view as! UITableViewHeaderFooterView
+        //header.textLabel?.font=title.font
+        header.textLabel?.textColor=title.textColor
+        header.textLabel?.textAlignment = NSTextAlignment.Center
+    }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
