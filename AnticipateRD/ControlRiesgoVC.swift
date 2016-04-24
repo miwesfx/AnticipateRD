@@ -60,7 +60,9 @@ class ControlRiesgoVC: UITableViewController {
         //header.textLabel?.font=title.font
         header.textLabel?.textColor=title.textColor
         header.textLabel?.textAlignment = NSTextAlignment.Center
+        //header.contentView.backgroundColor = UIColor.blackColor()
     }
+    
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         

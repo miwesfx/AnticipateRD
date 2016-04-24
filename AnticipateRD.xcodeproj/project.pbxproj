@@ -44,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		494A93C11CCD35D100C17282 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		494A93C21CCD35D100C17282 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		49C143441CBBB769006F5BDD /* PromotoresVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotoresVC.swift; sourceTree = "<group>"; };
 		49C143461CBBC189006F5BDD /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 		49D7377B1CB7AA6500B7DD07 /* AnticipateRD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnticipateRD.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -346,6 +348,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				49D737831CB7AA6600B7DD07 /* Base */,
+				494A93C11CCD35D100C17282 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				49D737881CB7AA6600B7DD07 /* Base */,
+				494A93C21CCD35D100C17282 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

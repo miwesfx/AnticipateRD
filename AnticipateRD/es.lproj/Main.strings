@@ -1,0 +1,54 @@
+
+/* Class = "UIBarButtonItem"; title = "Atrás"; ObjectID = "8RH-Re-9Xb"; */
+"8RH-Re-9Xb.title" = "Atrás";
+
+/* Class = "UILabel"; text = "Pregunta x/22"; ObjectID = "DWd-XI-SWd"; */
+"DWd-XI-SWd.text" = "Pregunta x/22";
+
+/* Class = "UINavigationItem"; title = "Control de riesgo"; ObjectID = "EnT-8P-658"; */
+"EnT-8P-658.title" = "Control de riesgo";
+
+/* Class = "UINavigationItem"; title = "Test de riesgo"; ObjectID = "Ns4-K3-L1b"; */
+"Ns4-K3-L1b.title" = "Test de riesgo";
+
+/* Class = "UINavigationItem"; title = "Asesoramiento criminológico"; ObjectID = "Qlf-ML-yfm"; */
+"Qlf-ML-yfm.title" = "Asesoramiento criminológico";
+
+/* Class = "UIBarButtonItem"; title = "Ayuda"; ObjectID = "TIU-3g-j7U"; */
+"TIU-3g-j7U.title" = "Ayuda";
+
+/* Class = "UINavigationItem"; title = "Anticípate"; ObjectID = "UAJ-FY-QFO"; */
+"UAJ-FY-QFO.title" = "Anticípate";
+
+/* Class = "UILabel"; text = "Consulta:"; ObjectID = "WPt-bJ-YcF"; */
+"WPt-bJ-YcF.text" = "Consulta:";
+
+/* Class = "UINavigationItem"; title = "Test de riesgo"; ObjectID = "Z77-c8-mOd"; */
+"Z77-c8-mOd.title" = "Test de riesgo";
+
+/* Class = "UINavigationItem"; title = "Info"; ObjectID = "ZMp-TH-JY6"; */
+"ZMp-TH-JY6.title" = "Info";
+
+/* Class = "UIBarButtonItem"; title = "Atrás"; ObjectID = "bI9-Ga-KAz"; */
+"bI9-Ga-KAz.title" = "Atrás";
+
+/* Class = "UILabel"; text = "Remitente:"; ObjectID = "cir-0m-fY5"; */
+"cir-0m-fY5.text" = "Remitente:";
+
+/* Class = "UINavigationItem"; title = "Ejercicio del día"; ObjectID = "ePT-wI-QJb"; */
+"ePT-wI-QJb.title" = "Ejercicio del día";
+
+/* Class = "UINavigationItem"; title = "Seguridad personal"; ObjectID = "oz8-mC-e4N"; */
+"oz8-mC-e4N.title" = "Seguridad personal";
+
+/* Class = "UIBarButtonItem"; title = "Atrás"; ObjectID = "rii-aN-4gV"; */
+"rii-aN-4gV.title" = "Atrás";
+
+/* Class = "UIBarButtonItem"; title = "Atrás"; ObjectID = "sTW-3s-2GF"; */
+"sTW-3s-2GF.title" = "Atrás";
+
+/* Class = "UINavigationItem"; title = "Promotores"; ObjectID = "t51-nb-xox"; */
+"t51-nb-xox.title" = "Promotores";
+
+/* Class = "UILabel"; text = "Test de riesgo"; ObjectID = "xTC-3K-c92"; */
+"xTC-3K-c92.text" = "Test de riesgo";
